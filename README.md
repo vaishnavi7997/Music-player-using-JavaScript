@@ -27,7 +27,7 @@ It allows users to play songs, view track details, control volume, and enjoy a s
 ---
 
 ## 📸 Screenshots
-![App Screenshot](./assets/pic.jpg)
+
 ![pic jpg](https://github.com/user-attachments/assets/6f865c29-bf9a-4f41-bf15-50766b6701ed)
 
 
