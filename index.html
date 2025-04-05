@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Music Player</title>
+    <link rel="icon" type="image/png" href="favi.jpg">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="player">
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Artist</div>
+    </div>
+
+    <div class="slider_container">
+      <span class="current-time">00:00</span>
+      <input type="range" min="1" max="100" value="0" class="seek_slider">
+      <span class="total-duration">00:00</span>
+    </div>
+
+    <div class="buttons">
+      <div class="prev-track"><i class="fas fa-step-backward"></i></div>
+      <div class="playpause-track"><i class="fas fa-play-circle"></i></div>
+      <div class="next-track"><i class="fas fa-step-forward"></i></div>
+    </div>
+
+    <div class="slider_container volume">
+      <i class="fas fa-volume-down"></i>
+      <input type="range" min="1" max="100" value="99" class="volume_slider">
+      <i class="fas fa-volume-up"></i>
+    </div>
+  </div>
+ 
+
+  <script src="main.js"></script>
+</body>
+</html>

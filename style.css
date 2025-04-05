@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  padding: 30px 25px;
+  width: 350px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.track-art {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  margin: 0 auto 20px;
+  transition: transform 0.3s ease;
+}
+
+.track-art:hover {
+  transform: scale(1.05);
+}
+
+.track-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+.track-artist {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.877);
+  margin-bottom: 20px;
+}
+
+.now-playing {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.877);
+  margin-bottom: 10px;
+}
+
+.slider_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.volume {
+  margin-top: 10px;
+}
+
+.seek_slider, .volume_slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.587);
+  outline: none;
+  transition: 0.3s;
+}
+
+.seek_slider:hover, .volume_slider:hover {
+  background: rgba(0, 0, 0, 0.587);
+}
+
+.seek_slider {
+  width: 60%;
+}
+
+.volume_slider {
+  width: 60%;
+}
+
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.877);
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.current-time, .total-duration {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.buttons i {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.877);
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.buttons i:hover {
+  color: rgba(0, 0, 0, 0.38);
+  transform: scale(1.1);
+}
+
+.volume i {
+  color: rgba(0, 0, 0, 0.877);
+}
+
