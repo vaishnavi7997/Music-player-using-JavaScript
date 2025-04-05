@@ -9,11 +9,9 @@ It allows users to play songs, view track details, control volume, and enjoy a s
 
 - 🎶 Play, Pause, Next, and Previous controls
 - 🎧 Display current song title, artist, and cover image
-- 📃 Dropdown to select and switch between 20+ songs
 - 🌙 Dark mode / light mode toggle
 - 📂 Seek bar to track song progress
 - 🔊 Volume slider
-- 💫 Modern animations and transitions
 - ✅ Fully responsive design (works on mobile, tablet, desktop)
 
 ---
